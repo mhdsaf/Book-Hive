@@ -1,0 +1,118 @@
+.navbar{
+    height: 6.5rem;
+}
+.well{
+    background-color: rgba(250, 250, 250, 0.9);
+}
+.mainDiv{
+    background-image: url("../img/mountains.jpg");
+    height: auto;
+}
+.childDiv{
+    background-color: rgba(59, 131, 172, 0.5);
+    border: 1px solid #3399CC;
+}
+@media (max-width: 992px){
+    .book{
+        display: none;
+    }
+}
+@media (max-width: 575px){
+    .title{
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+@media (max-width: 500px){
+    .title{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+.icon{
+    padding-right: 0.3rem;
+}
+.btn1{
+    background-color: #3399CC;
+    color: white;
+}
+.subscribe{
+    background-color: #E4E2E2;
+    border: 1px solid #E4E2E2;
+}
+.subscribe1{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.cards{
+    color: #3399CC;
+}
+.cardtextcolor{
+    color: #575757;
+}
+@media(max-width: 991px){
+    .separate{
+        margin: 10px 0px;
+    }
+}
+.why{
+    color: #3399CC;
+}
+.colap{
+    text-decoration: none!important;
+}
+.imgprofile{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -40px
+}
+.cardbody{
+    position: relative;
+    top: -40px;
+}
+.descrip{
+    font-size: 20px;
+    color: #a9a9a9;
+}
+.profcard{
+
+}
+@media(max-width: 767px){
+    .imgprofile{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: -80px;
+    }
+    .cardbody{
+        position: relative;
+        top: -80px;
+    }
+    .profcard{
+        margin-bottom: 120px;
+    }
+}
+@media(max-width: 991px){
+    .imgprofile{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: -80px;
+    }
+    .cardbody{
+        position: relative;
+        top: -80px;
+    }
+    .profcard{
+       margin-bottom: 70px;
+    }
+}
+.bgbtn{
+    background-color: #3399CC;
+}
+.copyr{
+    height: 80px;
+    background-color: #e4e2e4;
+}
